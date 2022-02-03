@@ -195,6 +195,12 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 479px) {
+  .hero-section.centered {
+    background-position: 40% 50%, 0% 50%;
+  }
+}
+
 .hero-heading {
   margin-bottom: 30px;
   color: #fff;
